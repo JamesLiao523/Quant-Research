@@ -4,18 +4,18 @@
 
 A risk process that only ranks positions by value at risk pushes every book toward the same answer: cut the volatile names. In a long/short equity book those names are often the return source. This study builds a systematic long/short book on 90 US large caps and runs a full stress-testing toolkit on it. The aim is to separate risk the book is paid for, which should be sized, from risk it carries by accident, which should be hedged.
 
-## The questions a PM asks, and where they are answered
+## Questions
 
-| PM question | Method | Section |
+| Question | Method | Section |
 |---|---|---|
-| What am I actually exposed to? | Nine-factor risk model; variance split by factor and by position | 3 |
-| Am I paid for those risks? | 16-year return and risk attribution by factor, stock selection and risk bucket | 4 |
-| What would 2008, COVID or the 2020 momentum crash do to me today? | Historical replays of today's book, split into factor and stock-specific loss | 5 |
+| What is the book exposed to? | Nine-factor risk model; variance split by factor and by position | 3 |
+| Is the book paid for those risks? | 16-year return and risk attribution by factor, stock selection and risk bucket | 4 |
+| What would 2008, COVID or the 2020 momentum crash do to today's book? | Historical replays of today's book, split into factor and stock-specific loss | 5 |
 | What if oil jumps 40% or rates rise 100 bp? | Conditional scenarios with normal and stress correlations | 6 |
 | How bad can next month get? | Normal, bootstrap, filtered and stressed filtered historical simulation; VaR and ES | 7 |
 | What would it take to lose 10%? | Reverse stress test: most plausible factor move and its probability | 8 |
-| Should I cut risk, hedge it, re-size it or rebuild it? | Backtest of minimum volatility, factor hedging, conviction sizing and sector-neutral rebuilds against the base book | 9 |
-| What do I do this month? | One-table risk report with an action for each risk source | 10 |
+| Should risk be cut, hedged, re-sized or rebuilt? | Backtest of minimum volatility, factor hedging, conviction sizing and sector-neutral rebuilds against the base book | 9 |
+| What action does each risk need this month? | One-table risk report with an action for each risk source | 10 |
 
 ## Key results (Jan 2010 – Nov 2026)
 
