@@ -2,7 +2,9 @@
 
 *What is a market-neutral long/short book really betting on, and which of those bets pay?*
 
-A long/short book with zero market exposure looks hedged, and a risk report that ranks positions by value at risk tells its manager to cut the most volatile names, which are often the ones that earn the return. Splitting this book's risk into factors told a different story. Factor bets carried 70% of its variance, and the largest was a value tilt nobody chose: long banks and energy, short technology. The intended momentum bet carried 39% of the risk while earning nothing, and a 2.2-standard-deviation momentum reversal is enough for a 10% monthly loss. Ranking stocks within sectors removed the accidental bet and cut the worst drawdown from −46% to −19%, though over 16 years no Sharpe gain clears a bootstrap interval.
+A long/short book with no market exposure looks safe. A risk report that ranks positions by value at risk tells its manager to cut the most volatile names. Those are often the names that earn the return.
+
+Breaking this book's risk into factors told a different story. Factor bets drove 70% of its risk. The biggest was a value tilt nobody chose, from being long banks and energy and short technology. A momentum reversal of about two standard deviations would be enough for a 10% monthly loss. Ranking stocks within each sector removed the hidden bet and cut the worst drawdown from 46% to 19%. Over 16 years the Sharpe gain is still too small to rule out luck.
 
 ## Questions
 

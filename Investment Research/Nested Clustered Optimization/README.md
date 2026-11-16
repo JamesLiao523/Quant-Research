@@ -2,7 +2,9 @@
 
 *Does grouping assets before optimizing protect a portfolio from estimation error?*
 
-Portfolio optimizers fail in a familiar way: they treat noisy estimates as truth and pile weight into assets that only look safe in the sample. Grouping assets by correlation and optimizing in two steps fixes much of that in simulation, cutting a minimum-variance portfolio's excess risk from 22% to 7%. In real long-only portfolios from 2017 to 2026 the edge shrinks to about 0.02 of Sharpe, because the no-short rule already does most of the protecting. On 22 ETFs, plain equal weight beat every optimizer.
+Optimizers treat noisy estimates as if they were true. They pile weight into assets that only look safe in the sample, and they rebuild the portfolio every time the data shift. Grouping assets by correlation and optimizing in two steps makes them much sturdier. In simulation it cut excess risk from 22% to 7%. It also made the weights three times steadier. The reason is simple. Each step works with a smaller matrix, so errors get magnified far less.
+
+Real portfolios from 2017 to 2026 show where this matters most. It pays in books that can short, use leverage or act on return forecasts. In long-only books the no-short rule already blocks the extreme bets. There the extra trading isn't worth it, and on 22 ETFs plain equal weight beat every optimizer.
 
 ## In the lab vs in the market
 

@@ -2,7 +2,9 @@
 
 *In the 2026 oil shock, which volatility forecaster was right in each phase, the option market or the models, and can a desk switch between them in time?*
 
-The option market read the 2026 oil shock before any model did, with a one-week forecast error two to nine times smaller as the shock built. Then it overstayed: after the peak GARCH-X forecast better, and selling volatility earned about twice the usual premium. Switching between the two in real time failed, because the warning signals also fire on 23% to 62% of ordinary days. Four blends all lost to plain implied vol, though perfect timing would have been worth about 12% of forecast error.
+Option prices saw the 2026 oil shock coming before any model did. While the shock was building, their one-week forecast error was two to nine times smaller. Then they stayed nervous long after the peak had passed. In that fading phase GARCH-X forecast better, and selling volatility paid about twice the usual premium.
+
+A desk that always knew the phase would cut its forecast error by about 12%. In real time that gain was out of reach. All four switching blends did worse than simply trusting option prices. The warning signals did flag shocks early, but they also fired on a quarter to more than half of ordinary days.
 
 ## Key results
 

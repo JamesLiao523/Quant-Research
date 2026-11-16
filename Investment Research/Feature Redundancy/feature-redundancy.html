@@ -111,7 +111,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);font
 <header class="top col">
   <div class="eyebrow">Machine learning research note</div>
   <h1 style="margin-top:.6rem">Feature Redundancy: Why Individual Importance Can Be Misleading</h1>
-  <p class="lede">Feature importance is how a quant decides which signals to keep, and it fails quietly when features overlap. Score overlapping features as groups and the real drivers reappear. On US stocks, price history predicts how big the next move will be, not which way it goes.</p>
+  <p class="lede">Quants use feature importance to decide which signals to keep. It fails quietly when features overlap. Score similar features as one group and the real drivers come back.</p>
   <div class="meta"><span>Data: a made-up dataset with a known answer; 90 US large-cap stocks, Jan 2015 – Oct 2026</span><span>Model: random forest classifier</span><span>Tests: split credit, scramble test, solo test, group scramble test</span></div>
   <nav class="toc" aria-label="Sections">
     <a href="#summary">Summary</a><a href="#problem">The problem</a><a href="#dataset">The data</a><a href="#firstlook">First look</a><a href="#method">How it is measured</a><a href="#f1">1 · Dilution</a><a href="#f2">2 · Groups</a><a href="#f3">3 · Sanity check</a><a href="#f4">4 · Real stocks</a><a href="#prevent">How to prevent it</a><a href="#conclusion">Conclusion</a><a href="#appendix">Appendix</a>

@@ -111,7 +111,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);font
 <header class="top col">
   <div class="eyebrow">Portfolio construction research note</div>
   <h1 style="margin-top:.6rem">Nested Clustered Optimization</h1>
-  <p class="lede">Optimizers treat noisy estimates as truth, and grouping assets before optimizing fixes most of that in simulation. In real long-only portfolios the edge shrinks to about 0.02 of Sharpe, because the no-short rule already does most of the protecting. On 22 ETFs, plain equal weight beat every optimizer.</p>
+  <p class="lede">Optimizers treat noisy estimates as if they were true. Grouping assets before optimizing makes portfolios much sturdier in simulation. The gain is largest in books that can short or use leverage.</p>
   <div class="meta"><span>Data: simulated 40-asset market; 22 multi-asset ETFs and 90 US large-cap stocks, 2017 – Oct 2026</span><span>Allocators: equal weight, inverse variance, HRP, minimum variance, max-Sharpe, NCO</span><span>Monthly rebalance, long-only, 10 bp cost</span></div>
   <nav class="toc" aria-label="Sections">
     <a href="#summary">Summary</a><a href="#problem">The problem</a><a href="#dataset">The data</a><a href="#firstlook">First look</a><a href="#method">How it is measured</a><a href="#f1">1 · Simulation</a><a href="#f2">2 · Why</a><a href="#f3">3 · Real portfolios</a><a href="#f4">4 · Trading</a><a href="#use">How to use it</a><a href="#conclusion">Conclusion</a><a href="#appendix">Appendix</a>

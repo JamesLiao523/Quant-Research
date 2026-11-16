@@ -111,7 +111,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);font
 <header class="top col">
   <div class="eyebrow">Portfolio research note</div>
   <h1 style="margin-top:.6rem">Covariance Denoising for Equity Portfolios</h1>
-  <p class="lede">A minimum-risk portfolio trusts every estimated correlation as exact, and with only six months of data that trust is costly. Filtering out the noise cut the portfolio's volatility from 21.0% to 13.4%. With two years of data the same filter deletes real structure and makes the portfolio riskier, so the right tool depends on how much history a desk has.</p>
+  <p class="lede">An optimizer treats every estimated correlation as exact. With only six months of data, removing the noise cut portfolio volatility from 21.0% to 13.4%. With longer history the filter starts to hurt, which gives a clear rule for when to use it.</p>
   <div class="meta"><span>Universe: 90 US large-cap stocks in 10 sectors, Jan 2015 – Oct 2026</span><span>Methods: Marcenko-Pastur denoising, detoning, Ledoit-Wolf shrinkage</span><span>Score: realised volatility of a minimum-variance portfolio</span></div>
   <nav class="toc" aria-label="Sections">
     <a href="#summary">Summary</a><a href="#problem">Problem</a><a href="#firstlook">Data</a><a href="#method">Method</a><a href="#f1">1 · Cleaner matrix</a><a href="#f2">2 · Known truth</a><a href="#f3">3 · Two-year window</a><a href="#f4">4 · Short windows</a><a href="#use">Implications</a><a href="#conclusion">Conclusion</a><a href="#appendix">Appendix</a>

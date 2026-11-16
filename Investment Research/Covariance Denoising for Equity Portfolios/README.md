@@ -2,7 +2,9 @@
 
 *Does removing noise from a correlation matrix give a safer minimum-variance portfolio?*
 
-A minimum-risk portfolio is only as good as the correlations behind it, and the optimizer trusts every one of them as exact. After a regime change, when a desk has only six months of relevant data, that trust is expensive: the portfolio built on raw correlations ran at 21.0% volatility. Filtering out the part that pure noise would produce brought it down to 13.4% and cut trading by about 80%. With two years of data the same filter backfires, deleting real sector structure, and simple Ledoit-Wolf shrinkage is the safer default.
+An optimizer treats every estimated correlation as exact. After a regime change a desk may have only six months of useful data, and that is when this gets expensive. The portfolio built on raw correlations ran at 21.0% volatility.
+
+Removing the part that pure noise would produce brought it down to 13.4%. It also cut trading by about 80%. With two years of data the picture flips. The raw numbers are good enough by then, and the filter starts deleting real sector structure. So the rule is simple. Filter the noise when history is short or trading is costly, and use Ledoit-Wolf shrinkage as the everyday default.
 
 ## When denoising pays
 

@@ -2,7 +2,9 @@
 
 *When several features carry the same information, does a model's importance score still find the real drivers?*
 
-Feature importance is how a quant decides which signals to keep, and it fails quietly when features overlap. Three colleagues who can all do the same task each look unimportant, because removing one leaves the others to cover; model features behave the same way. Add 30 near-copies of five real drivers, and a model rates those drivers at 17% of their true importance. Scoring overlapping features as groups brings them back. On 90 US stocks it shows that past prices say a lot about how big the next 10-day move will be (score 0.598, coin flip 0.5) and nothing about its direction (0.503).
+Quants use feature importance to decide which signals to keep. It fails quietly when features overlap. Think of three colleagues who can all do the same job. Remove any one and the others cover, so each one looks unimportant.
+
+Add 30 near-copies of five real drivers and a model gives those drivers only 17% of their true credit. Scoring similar features as one group brings them back. On 90 US stocks this shows that past prices predict how big the next 10-day move will be, with a score of 0.598 against 0.5 for a coin flip. They say nothing about which way it goes.
 
 ## Test 1 · Made-up data where the answer is known
 

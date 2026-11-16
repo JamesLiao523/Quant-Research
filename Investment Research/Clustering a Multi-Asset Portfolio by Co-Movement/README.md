@@ -2,7 +2,9 @@
 
 *Do multi-asset ETFs behave the way their labels say, and can an algorithm tell how many groups there really are?*
 
-A portfolio that holds stocks, bonds and commodities looks diversified on paper, but its returns can tell a different story. Before the common market move is removed, high-yield bonds, emerging-market bonds and REITs trade as the same bet as ten equity funds. Strip that move out and 23 ETFs sort into eight groups a portfolio manager would recognise, matching true asset classes twice as well (adjusted Rand index 0.30 to 0.63). The weak link is the count itself: the algorithm that decides how many groups exist swings from 2 to 7 across rolling windows, so its answer needs a cross-check before anyone sizes risk on it.
+A portfolio of stocks, bonds and commodities looks diversified on paper. Its returns can tell another story. High-yield bonds, EM bonds and REITs trade much like the ten equity funds, because one market move drags them all together.
+
+Take that move out and 23 ETFs fall into eight groups a portfolio manager would recognise. They match real asset classes twice as well as before, with the score rising from 0.30 to 0.63. The weak spot is deciding how many groups there are. The algorithm picks anywhere from 2 to 7 depending on the window, so its count needs a second check.
 
 ## The short answer
 
