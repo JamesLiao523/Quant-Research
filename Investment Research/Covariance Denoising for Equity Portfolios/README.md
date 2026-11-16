@@ -1,8 +1,8 @@
 # Covariance Denoising for Equity Portfolios
 
-Optimisers invert the covariance matrix, so every estimation error in it gets amplified into the weights. Random matrix theory says how much of a sample correlation matrix pure noise would produce; denoising keeps only what rises above that and flattens the rest. This project tests whether that produces lower-risk portfolios on 90 US large-cap stocks.
+*Does removing noise from a correlation matrix give a safer minimum-variance portfolio?*
 
-**Verdict: it depends on how much data the estimate has.**
+A minimum-risk portfolio is only as good as the correlations behind it, and the optimizer trusts every one of them as exact. After a regime change, when a desk has only six months of relevant data, that trust is expensive: the portfolio built on raw correlations ran at 21.0% volatility. Filtering out the part that pure noise would produce brought it down to 13.4% and cut trading by about 80%. With two years of data the same filter backfires, deleting real sector structure, and simple Ledoit-Wolf shrinkage is the safer default.
 
 ## When denoising pays
 

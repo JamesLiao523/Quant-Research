@@ -1,8 +1,8 @@
 # Nested Clustered Optimization
 
-*Does splitting a portfolio into groups before optimizing protect it from estimation error?*
+*Does grouping assets before optimizing protect a portfolio from estimation error?*
 
-A portfolio optimizer treats every estimated volatility and correlation as exact, so it piles weight into assets that only look safe in the sample. Nested clustered optimization (NCO) groups assets by correlation, optimizes inside each group, then optimizes across groups, so each step uses fewer, more reliable numbers. This study measures the gain where the truth is known, then tests whether it survives in real monthly-rebalanced portfolios.
+Portfolio optimizers fail in a familiar way: they treat noisy estimates as truth and pile weight into assets that only look safe in the sample. Grouping assets by correlation and optimizing in two steps fixes much of that in simulation, cutting a minimum-variance portfolio's excess risk from 22% to 7%. In real long-only portfolios from 2017 to 2026 the edge shrinks to about 0.02 of Sharpe, because the no-short rule already does most of the protecting. On 22 ETFs, plain equal weight beat every optimizer.
 
 ## In the lab vs in the market
 

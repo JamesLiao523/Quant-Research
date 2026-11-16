@@ -1,6 +1,8 @@
 # Pricing the WTI Smile
 
-> One parabola in local volatility, refitted each morning, prices every WTI option strike to about a cent.
+*Can one three-number curve price every WTI option strike?*
+
+An oil options desk that quotes each strike with its own volatility runs dozens of models that disagree with each other, and a single volatility number misprices the wings by up to 24¢ a barrel. A three-parameter smile, refitted each morning, prices every strike to about 1.3¢ in normal markets, and its three numbers map straight onto the straddle, risk reversal and strangle a trader already watches. Its slope even flagged the 2026 call-skew regime weeks before curvature moved. The limits are just as clear: a fit goes stale within a week, and the curve gives no reliable hedging or forecasting edge.
 
 | | |
 |---|---|

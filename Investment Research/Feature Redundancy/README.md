@@ -1,8 +1,8 @@
 # Feature Redundancy: Why Individual Importance Can Be Misleading
 
-> When similar features compete for credit, evaluating them as a group reveals what truly drives the model.
+*When several features carry the same information, does a model's importance score still find the real drivers?*
 
-Three people on a project who can all do the same task: remove any one of them and the others cover, so each looks unimportant. Remove all three and the project fails. Model features behave the same way. A stock's 20-day and 60-day volatility both measure how jumpy it is, so when the model is tested without one, it leans on the other, and both look minor. This study measures how badly that misleads and tests a simple fix: group features that move together and test each group as a whole.
+Feature importance is how a quant decides which signals to keep, and it fails quietly when features overlap. Three colleagues who can all do the same task each look unimportant, because removing one leaves the others to cover; model features behave the same way. Add 30 near-copies of five real drivers, and a model rates those drivers at 17% of their true importance. Scoring overlapping features as groups brings them back. On 90 US stocks it shows that past prices say a lot about how big the next 10-day move will be (score 0.598, coin flip 0.5) and nothing about its direction (0.503).
 
 ## Test 1 · Made-up data where the answer is known
 

@@ -1,6 +1,8 @@
 # Clustering a Multi-Asset Portfolio by Co-Movement
 
-**Asset labels say what an ETF is. Returns say how it behaves.** This project groups 23 multi-asset ETFs and 90 US stocks by how they move together, and tests whether the algorithm that picks the number of groups can be trusted.
+*Do multi-asset ETFs behave the way their labels say, and can an algorithm tell how many groups there really are?*
+
+A portfolio that holds stocks, bonds and commodities looks diversified on paper, but its returns can tell a different story. Before the common market move is removed, high-yield bonds, emerging-market bonds and REITs trade as the same bet as ten equity funds. Strip that move out and 23 ETFs sort into eight groups a portfolio manager would recognise, matching true asset classes twice as well (adjusted Rand index 0.30 to 0.63). The weak link is the count itself: the algorithm that decides how many groups exist swings from 2 to 7 across rolling windows, so its answer needs a cross-check before anyone sizes risk on it.
 
 ## The short answer
 

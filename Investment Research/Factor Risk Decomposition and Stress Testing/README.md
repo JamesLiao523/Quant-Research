@@ -1,8 +1,8 @@
 # Factor Risk Decomposition and Stress Testing
 
-*How can the risk of a long/short book be turned into decisions a portfolio manager can act on, without cutting the positions that earn its return?*
+*What is a market-neutral long/short book really betting on, and which of those bets pay?*
 
-A risk process that only ranks positions by value at risk pushes every book toward the same answer: cut the volatile names. In a long/short equity book those names are often the return source. This study builds a systematic long/short book on 90 US large caps and runs a full stress-testing toolkit on it. The aim is to separate risk the book is paid for, which should be sized, from risk it carries by accident, which should be hedged.
+A long/short book with zero market exposure looks hedged, and a risk report that ranks positions by value at risk tells its manager to cut the most volatile names, which are often the ones that earn the return. Splitting this book's risk into factors told a different story. Factor bets carried 70% of its variance, and the largest was a value tilt nobody chose: long banks and energy, short technology. The intended momentum bet carried 39% of the risk while earning nothing, and a 2.2-standard-deviation momentum reversal is enough for a 10% monthly loss. Ranking stocks within sectors removed the accidental bet and cut the worst drawdown from −46% to −19%, though over 16 years no Sharpe gain clears a bootstrap interval.
 
 ## Questions
 
