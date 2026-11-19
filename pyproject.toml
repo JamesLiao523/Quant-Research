@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-research"
+version = "0.2.0"
+description = "Quant research notebooks and the Macro Data Extract gathering tools"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=0.10",
+  "httpx",
+  "numpy",
+  "pandas>=2",
+  "pyarrow",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+gather = ["openpyxl>=3.1", "xlrd>=2", "yfinance>=0.2.65"]
+research = [
+  "exchange-calendars",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "macrosynergy",
+  "jupytext",
+  "nbconvert",
+  "ipykernel",
+]
+
+[tool.setuptools]
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["Macro Data Extract/tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

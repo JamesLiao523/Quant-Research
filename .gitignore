@@ -4,3 +4,9 @@ data/
 .ipynb_checkpoints/
 __pycache__/
 .env
+*.egg-info/
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+!Macro Data Extract/requests.csv

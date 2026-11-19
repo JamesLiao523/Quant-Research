@@ -1,0 +1,94 @@
+provider,identifier,purpose
+fred,DEXUSAL,AUD spot for the DM FX forward sleeve
+fred,DEXCAUS,CAD spot for the DM FX forward sleeve
+fred,DEXSZUS,CHF spot for the DM FX forward sleeve
+fred,DEXUSEU,EUR spot for the DM FX forward sleeve
+fred,DEXUSUK,GBP spot for the DM FX forward sleeve
+fred,DEXJPUS,JPY spot for the DM FX forward sleeve
+fred,DEXNOUS,NOK spot for the DM FX forward sleeve
+fred,DEXUSNZ,NZD spot for the DM FX forward sleeve
+fred,DEXSDUS,SEK spot for the DM FX forward sleeve
+fred,IRLTLT01AUM156N,AUD 10-year government yield for the term-spread factor
+fred,IR3TIB01AUM156N,AUD 3-month interbank rate for the term-spread factor
+fred,IRLTLT01CAM156N,CAD 10-year government yield for the term-spread factor
+fred,IR3TIB01CAM156N,CAD 3-month interbank rate for the term-spread factor
+fred,IRLTLT01CHM156N,CHF 10-year government yield for the term-spread factor
+fred,IR3TIB01CHM156N,CHF 3-month interbank rate for the term-spread factor
+fred,IRLTLT01DEM156N,DEM 10-year government yield for the term-spread factor
+fred,IR3TIB01DEM156N,DEM 3-month interbank rate for the term-spread factor
+fred,IRLTLT01GBM156N,GBP 10-year government yield for the term-spread factor
+fred,IR3TIB01GBM156N,GBP 3-month interbank rate for the term-spread factor
+fred,IRLTLT01JPM156N,JPY 10-year government yield for the term-spread factor
+fred,IR3TIB01JPM156N,JPY 3-month interbank rate for the term-spread factor
+fred,IRLTLT01NZM156N,NZD 10-year government yield for the term-spread factor
+fred,IR3TIB01NZM156N,NZD 3-month interbank rate for the term-spread factor
+fred,IRLTLT01SEM156N,SEK 10-year government yield for the term-spread factor
+fred,IR3TIB01SEM156N,SEK 3-month interbank rate for the term-spread factor
+fred,IRLTLT01NOM156N,NOK 10-year government yield for the term-spread factor
+fred,IR3TIB01NOM156N,NOK 3-month interbank rate for the term-spread factor
+fred,IRLTLT01FRM156N,FRF 10-year government yield for the term-spread factor
+fred,IR3TIB01FRM156N,FRF 3-month interbank rate for the term-spread factor
+fred,IRLTLT01ITM156N,ITL 10-year government yield for the term-spread factor
+fred,IR3TIB01ITM156N,ITL 3-month interbank rate for the term-spread factor
+fred,IRLTLT01ESM156N,ESP 10-year government yield for the term-spread factor
+fred,IR3TIB01ESM156N,ESP 3-month interbank rate for the term-spread factor
+fred,IRLTLT01NLM156N,NLG 10-year government yield for the term-spread factor
+fred,IR3TIB01NLM156N,NLG 3-month interbank rate for the term-spread factor
+fred,DRTSCILM,"US banks tightening C&I standards, bank lending survey factor"
+fred,DRTSCIS,US banks tightening C&I standards to small firms
+fred,TDSP,US household debt service ratio
+fred,PERMIT,"US building permits, construction factor"
+fred,HOUST,"US housing starts, construction factor"
+yahoo,EWA,Australia equity ETF for the DM ex-US equity basket
+yahoo,EWC,Canada equity ETF for the DM ex-US equity basket
+yahoo,EWL,Switzerland equity ETF for the DM ex-US equity basket
+yahoo,EZU,Euro area equity ETF for the DM ex-US equity basket
+yahoo,EWU,UK equity ETF for the DM ex-US equity basket
+yahoo,EWJ,Japan equity ETF for the DM ex-US equity basket
+yahoo,EWD,Sweden equity ETF for the DM ex-US equity basket
+yahoo,EWZ,Brazil equity ETF for the EM equity basket
+yahoo,FXI,China equity ETF for the EM equity basket
+yahoo,INDA,India equity ETF for the EM equity basket
+yahoo,EWY,Korea equity ETF for the EM equity basket
+yahoo,EWW,Mexico equity ETF for the EM equity basket
+yahoo,EWM,Malaysia equity ETF for the EM equity basket
+yahoo,EPOL,Poland equity ETF for the EM equity basket
+yahoo,EWS,Singapore equity ETF for the EM equity basket
+yahoo,THD,Thailand equity ETF for the EM equity basket
+yahoo,TUR,Turkey equity ETF for the EM equity basket
+yahoo,EWT,Taiwan equity ETF for the EM equity basket
+yahoo,EZA,South Africa equity ETF for the EM equity basket
+fred,MKTGDPAUA646NWDB,AU nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPCAA646NWDB,CA nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPCHA646NWDB,CH nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPDEA646NWDB,DE nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPFRA646NWDB,FR nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPITA646NWDB,IT nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPESA646NWDB,ES nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPNLA646NWDB,NL nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPGBA646NWDB,GB nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPJPA646NWDB,JP nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPNZA646NWDB,NZ nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPSEA646NWDB,SE nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPNOA646NWDB,NO nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPUSA646NWDB,US nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPBRA646NWDB,BR nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPCLA646NWDB,CL nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPCNA646NWDB,CN nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPCOA646NWDB,CO nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPCZA646NWDB,CZ nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPHUA646NWDB,HU nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPIDA646NWDB,ID nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPILA646NWDB,IL nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPINA646NWDB,IN nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPKRA646NWDB,KR nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPMXA646NWDB,MX nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPMYA646NWDB,MY nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPPEA646NWDB,PE nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPPHA646NWDB,PH nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPPLA646NWDB,PL nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPROA646NWDB,RO nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPSGA646NWDB,SG nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPTHA646NWDB,TH nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPTRA646NWDB,TR nominal GDP in USD for GDP-weighted baskets
+fred,MKTGDPZAA646NWDB,ZA nominal GDP in USD for GDP-weighted baskets
