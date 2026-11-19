@@ -33,8 +33,6 @@ research = [
 [tool.setuptools]
 packages = []
 
-[tool.pytest.ini_options]
-testpaths = ["Macro Data Extract/tests"]
 
 [tool.ruff]
 line-length = 88
