@@ -1,4 +1,4 @@
-# Statistical Learning in Macro Portfolio Allocation
+# Statistical Learning and Macro Portfolio Allocation
 
 Macro-quantamental information has a plausible and documented bearing on the returns of all major asset classes. This study applies it to the allocation of capital across eleven asset classes and cash. A theory-guided signal combines 36 macro themes with signs set by economic reasoning. A learning-based signal comes from 35 regression models that sequentially select and weight 74 macro factors.
 

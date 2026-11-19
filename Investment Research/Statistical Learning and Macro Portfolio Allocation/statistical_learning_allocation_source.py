@@ -1,5 +1,5 @@
 # %% [markdown]
-# # Statistical Learning in Macro Portfolio Allocation
+# # Statistical Learning and Macro Portfolio Allocation
 #
 # Macro-quantamental information has a plausible and documented bearing on the returns of all major asset classes. Excess inflation weighs on bonds, growth above trend supports equities, and rate differentials pay currency carry. This notebook applies that information to a basic portfolio decision, the allocation of capital across eleven asset classes and cash. Two signals are compared under the same allocation rule. A theory-guided signal combines 36 macro themes with signs set by economic reasoning. A learning-based signal comes from an ensemble of 35 regression models that sequentially select and weight 74 macro factors for each asset class.
 #
